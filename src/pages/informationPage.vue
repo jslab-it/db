@@ -2,7 +2,7 @@
   <div class="py-1">
     <v-divider class="mb-1"></v-divider>
     <div>
-      <span class="text-h4 font-weight-bold">Tamashi Ramen</span>
+      <span class="text-h4 font-weight-bold">Casa Gaja</span>
     </div>
    <v-divider class="my-1"></v-divider>
     <v-carousel hide-delimiters cycle show-arrows-on-hover height="250px">

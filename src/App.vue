@@ -2,8 +2,8 @@
   <v-app   >
     <v-container class="pa-1">
       <v-card flat max-width="600px" >
-        <div class="sticky-toolbar">tamashiRamen.com</div>
-    <router-view />
+        <div class="sticky-toolbar">iBookRestaurant.com</div>
+        <router-view />
       </v-card>
     </v-container>
   </v-app>

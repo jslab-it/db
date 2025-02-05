@@ -7,7 +7,7 @@ Vue.use(Router)
 
     export default new Router({
         mode: 'history',
-        base: process.env.NODE_ENV === "production" ? "/table_reservation/" : "/",
+        base: process.env.NODE_ENV === "production" ? "/db/" : "/",
         routes: [
             {
                 path: '/',
