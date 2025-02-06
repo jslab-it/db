@@ -12,21 +12,21 @@
         <v-btn x-small  color="primary">INSIDER</v-btn>
         <v-btn x-small  outlined color="red">INSIDER</v-btn>
         <v-btn x-small  color="primary">INSIDER</v-btn>
-        <span  class="link-text text-caption font-weight-bold">CARNE-ROMANTICO-GRUPPI</span>
+        <span  class="link-text text-caption font-weight-bold">CARNE-ROMANTICO</span>
         <span class="ml-auto text-h6 align-content-start " >4.6/<span class="text-subtitle-2 align-end">5</span></span>
       </div >
       <div class="d-flex flex-column pa-1 my-2">
         <div class="mb-2">
-          <v-icon dense left >mdi-map-marker</v-icon>
-          <span class="font-weight-bold text-subtitle-2">Corso Italia 32er,anglo via zara  </span>
+          <v-icon  class="pa-2" dense left >mdi-map-marker</v-icon>
+          <span class="font-weight-bold text-subtitle-2">Corso Italia 32, angolo Via Zara  </span>
         </div>
         <div  class="mb-2">
-          <v-icon dense left >mdi-silverware-fork-knife</v-icon>
+          <v-icon dense left class="pa-2" >mdi-silverware-fork-knife</v-icon>
           <span class="font-weight-bold text-subtitle-2">Carne </span>
         </div>
         <div class="mb-2">
-          <v-icon left>mdi-cash</v-icon>
-          <span class="font-weight-bold text-subtitle-2">Prezzo Medio 40 </span>
+          <v-icon class="pa-2" left>mdi-cash</v-icon>
+          <span class="font-weight-bold text-subtitle-2">Prezzo Medio 75€ </span>
         </div>
       </div>
       <v-row class=" justify-center">

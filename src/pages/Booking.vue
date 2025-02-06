@@ -7,7 +7,7 @@
           v-if="step!==4"
           src="../assets/tamashiBookingImage.jpg"
       ></v-img>
-      <div class="text-center font-weight-bold  text-h5">Tamashi Ramen</div>
+      <div class="text-center font-weight-bold  text-h5">Casa Gaja</div>
       <v-divider class="my-1"></v-divider>
       <v-stepper v-model="step" dense>
         <v-stepper-header dense>
@@ -81,7 +81,7 @@
             <v-row>
               <v-col cols="12" class="pb-2 d-flex align-center justify-center">
                 <v-icon left class="mr-2">mdi-account-outline</v-icon>
-                <h3 class="my-0">Numero di bambni</h3>
+                <h3 class="my-0">Numero di bambini</h3>
               </v-col>
             </v-row>
             <v-divider class="my-3"></v-divider>
@@ -188,7 +188,7 @@ export default {
       bookableDays: [],
       enabledDays: [],
       selectedLocation: null,
-      selectedChildren: 0,
+      selectedChildren: null,
       selectedNumberOfPeople: 0,
       loading: false,
       alert: 'Impossibile recuperare le date disponibili, fare clic qui per aggiornare.',
@@ -284,7 +284,7 @@ export default {
         this.selectedChildren = number;
       }
       if (this.selectedChildren > 0 && this.selectedNumberOfPeople > 0) {
-        this.steps[1].value = this.selectedNumberOfPeople + ' + ' + this.selectedChildren + ' persone';
+        this.steps[1].value = this.selectedNumberOfPeople + ' + ' + this.selectedChildren + ' pax';
       }else if(this.selectedChildren > 0){
         this.steps[1].value = this.selectedChildren + ' bambini';
       }

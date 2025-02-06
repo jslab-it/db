@@ -282,7 +282,7 @@ export default {
 .day-content.disabled-day {
   color: #959ba7;
   background-color: #ecedef;
-  text-decoration: line-through;
+  /*text-decoration: line-through;*/
   pointer-events: none;
   cursor: not-allowed;
   box-shadow: none;
